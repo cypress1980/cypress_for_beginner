@@ -1,0 +1,37 @@
+{
+   "lambdatest_auth": {
+      "username": "kailashpathak",
+      "access_key": "7aVuffQRbXRFUHrYbLhjSvBUiz3ctCih23e42NrDQxnDWErzD1"
+   },
+   "browsers": [
+      {
+         "browser": "Chrome",
+         "platform": "Windows 10",
+         "versions": [
+            "latest-1"
+         ]
+      },
+      {
+         "browser": "Firefox",
+         "platform": "Windows 10",
+         "versions": [
+            "latest-1"
+         ]
+      }
+   ],
+   "run_settings": {
+      "build_name": "Write First Script In Cypress",
+      "parallels": 2,
+      "specs": "./cypress/e2e/lambdatest/*.cy.js",
+      "ignore_files": "",
+      "network": true,
+      "headless": false,
+      "npm_dependencies": {
+         "cypress": "13.6.2"
+      }
+   },
+   "tunnel_settings": {
+      "tunnel": false,
+      "tunnel_name": null
+   }
+}
